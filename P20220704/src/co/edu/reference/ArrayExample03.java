@@ -6,6 +6,7 @@ public class ArrayExample03 {
 		// 배열 선언.
 		int[] intAry = { 22, 33 };
 		intAry = new int[] { 24, 56, 77, 43, 99 }; // 변수에 배열을 재할당할 때 new 표기
+												   // 기존 변수값은 초기화됨
 		int sum = 0;
 		double avg = 0;
 

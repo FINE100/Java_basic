@@ -7,11 +7,10 @@ public class ArrayExample {
 		// 배열의 크기 : 5, intAry.length
 		
 		// 위치 세번째 값 15 -> 30 바꾸기, 첫번째 값과 두번째 값 바꾸기
-		intAry[3] = 30;
+	//	intAry[3] = 30;
 		int temp = intAry[0];
 		intAry[0] = intAry[1];
 		intAry[1] = temp;
-		
 		// 누적 합계 구하기
 		int sum = 0;
 		for(int i = 0; i < intAry.length; i++) {
@@ -32,7 +31,7 @@ public class ArrayExample {
 			}
 		} // 조건: 첫번째, 세번째, 다섯번째 값만 출력하라
 		for (int i = 0; i < intAry.length; i++) {
-			if (i % 2 == 0) { // 인덱스 값 설정
+			if (i % 2 == 0) { // 인덱스 값 설정, 첫번쨰, 세번쨰, 다섯번쨰는 [0][2][4] 이므로 짝수 구하듯 구함
 				System.out.println("홀수 번째 값은 " + intAry[i]);
 			}
 		}

@@ -8,7 +8,7 @@ public class ArrayExample01 {
 												// byte,short,int,long => 초기값 0
 		intAry[0] = 10; 						// 첫번째 위치 10값을 할당.
 		intAry[4] = 50;
-		System.out.println(intAry.length);  	// 배열 크기를 알려주는 읽기 속성 .length
+		System.out.println("배열 길이는 " + intAry.length);  	// 배열 크기를 알려주는 읽기 속성 .length
 
 		for (int i = 0; i < 10; i++) {
 
@@ -18,7 +18,7 @@ public class ArrayExample01 {
 		
 		double[] dblAry = new double[5];		// double 형 공간 5개 선언. 초기값 0.0
 		for(int i =0; i < 5; i++) {
-			System.out.println(dblAry[i]);
+			System.out.println("배열의 값은 " +dblAry[i]);
 		}
 		
 		boolean[] boolAry = new boolean[3];			//boolean형 초기값 false
