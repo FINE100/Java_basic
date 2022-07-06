@@ -14,7 +14,7 @@ public class ForExample01 {
 		}
 		// 제일 큰 값을 max에 담기
 		Arrays.sort(tempAry); // 오름차순 Arrays.sort
-		for (int num : tempAry) {
+     	for (int num : tempAry) {
 			System.out.println(num); // 향상된 for문
 		}
 		int max = 0;

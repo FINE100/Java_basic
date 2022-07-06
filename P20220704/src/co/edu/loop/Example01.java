@@ -13,7 +13,7 @@ public class Example01 {
 
 		for (int i = 1; i <= 10; i++) {
 
-			num = (int) (Math.random() * 10) + 1;
+     		num = (int) (Math.random() * 10) + 1;
 			if (num % 2 == 0) { // 2의 배수를 sum2에 누적
 				sum2 += num;
 			}
@@ -26,7 +26,7 @@ public class Example01 {
 		System.out.println("3의 배수 합계 : " + sum3);
 
 		// 2의 배수의 합 : 22??
-	}
+ }
 }
 
 //	 내가 친 코드.. 비교해보기

@@ -11,14 +11,14 @@ public class ArrayExample03 {
 		double avg = 0;
 
 		for (int i = 0; i < intAry.length; i++) {
-			sum += intAry[i];
+	 	sum += intAry[i];
 			avg = (double) sum / intAry.length;
 		}
 		System.out.printf("합계 %d, 평균 %.1f입니다.\n", sum, avg);
 
 		// 배열 선언.
 		int[][] nestAry = new int[2][3];
-		nestAry[0][0] = 10;
+    	nestAry[0][0] = 10;
 		nestAry[0][2] = 30;
 		nestAry[1][1] = 40;
 

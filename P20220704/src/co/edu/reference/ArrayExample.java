@@ -9,7 +9,7 @@ public class ArrayExample {
 		// 위치 세번째 값 15 -> 30 바꾸기, 첫번째 값과 두번째 값 바꾸기
 	//	intAry[3] = 30;
 		int temp = intAry[0];
-		intAry[0] = intAry[1];
+     	intAry[0] = intAry[1];
 		intAry[1] = temp;
 		// 누적 합계 구하기
 		int sum = 0;

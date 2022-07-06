@@ -12,7 +12,7 @@ public class Example04 {
 		int temp = ((int) Math.random() * 100) + 1;
 
 		while (true) {
-			System.out.println("임의의 값을 입력해보세요!");
+	 		System.out.println("임의의 값을 입력해보세요!");
 			int inputVal = scn.nextInt();
 
 			if (inputVal == temp) {
@@ -21,10 +21,9 @@ public class Example04 {
 
 			} else if (inputVal > temp) {
 				System.out.println("입력값이 임의의 값보다 큽니다.");
-				
+
 			} else if (inputVal < temp) {
 				System.out.println("입력값이 임의의 값보다 작습니다.");
-				
 
 			}
 

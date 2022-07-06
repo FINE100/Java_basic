@@ -32,7 +32,7 @@ public class ArrayExample01 {
 //		strAry[3] = "황경영";							//실행오류 발생. 번지수가 없으므로
 		strAry[2] = "황경영";							//기존값이 있더라도 선언해서 값을 변경할 수 있음.
 		for(int i = 0; i <strAry.length; i++) {
-			System.out.println(strAry[i]);
+ 		System.out.println(strAry[i]);
 		}
 	} 
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DoWhileExample {
 
 	public static void main(String[] args) {
-		Scanner scn = new Scanner(System.in);
+    	Scanner scn = new Scanner(System.in);
 		
 		
 //		boolean isTrue = true;

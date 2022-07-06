@@ -11,6 +11,6 @@ public class Example03 {
 		} 
 			
 	}
-	}
+}
 		// for반복문을 활용. 구구단 3단출력
 		

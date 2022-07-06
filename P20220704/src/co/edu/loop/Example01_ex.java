@@ -12,7 +12,7 @@ public class Example01_ex {
 
 			num = (int) (Math.random() * 10) + 1;
 			if (num % 2 == 0) {
-				sum += num;
+		     	sum += num;
 				System.out.println(num + " , " + sum);
 			}
 		}

@@ -46,7 +46,7 @@ public class ForExample02 {
 		for (int i = 0; i < scanArray.length; i++) {
 			System.out.println("임의의 수를 입력 >>>>");
 			scanArray[i] = scn.nextInt();
-		} 
+		}
 		sum = sumAry(scanArray);
 		avg = (double) sum / scanArray.length;
 		System.out.printf("scanArray 배열의 합 %d, 평균 %.1f\n", sum, avg);

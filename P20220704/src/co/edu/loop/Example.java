@@ -14,7 +14,7 @@ public class Example {
 		
 		do {
 			System.out.println("임의의 값을 입력>>>");
-			int num = scn.nextInt();
+	     	int num = scn.nextInt();
 			sum += num;
 						
 			if(sum>100) {
