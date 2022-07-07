@@ -25,7 +25,7 @@ public class Exam03 {
 			avg = (double)sum/arr.length;
 		
 			int max = arr[0];
-			int min = 1000;
+			int min = arr[0];
 	for(int i=0; i<arr.length; i++) {
 		if(max < arr[i]) {
 			max = arr[i];
