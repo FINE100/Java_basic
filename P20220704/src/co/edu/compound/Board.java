@@ -13,8 +13,10 @@ public class Board {
 	private String title;
 	private String content;
 	private String writer;
+	
 	private Date createDate;
 	private int hitCount;
+	
 	
 	// 생성자
 	
@@ -22,7 +24,8 @@ public class Board {
 	
 	
 	// getter, setter
-		
+	
+
 	
 	public String getTitle() {
 		return title;
