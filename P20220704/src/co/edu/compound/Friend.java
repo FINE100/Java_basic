@@ -37,7 +37,7 @@ public class Friend {
 	public void setHight(double height) {
 		if (height < 0) {
 			System.out.println("잘못된 값을 입력하였습니다.");
-			this.height = 165.0;
+			this.height = 165.0; // 오류 발생시 설정값을 둠
 		} else {
 			this.height = height;
 		}

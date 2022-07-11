@@ -33,7 +33,7 @@ public class ClassExam {
 		
 		for(int i =0; i<students.length; i++) {
 			if(students[i].name.equals("김익수")) {
-//				System.out.println("점수:" + students[i].score);
+				System.out.println("점수:" + students[i].score);
 			}
 			
 			//System.out.println(students[i].name);
