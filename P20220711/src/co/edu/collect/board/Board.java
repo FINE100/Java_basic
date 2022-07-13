@@ -54,6 +54,14 @@ public class Board {
 		
 	}
 
+<<<<<<< HEAD
+=======
+	@Override
+	public String toString() {
+		return "Board [title=" + title + ", writer=" + writer + ", content=" + content + "]";
+	}
+
+>>>>>>> branch 'master' of https://github.com/FINE100/sample_workspace.git
 	
 	
 	
