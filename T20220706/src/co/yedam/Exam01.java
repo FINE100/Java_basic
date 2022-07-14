@@ -7,12 +7,12 @@ package co.yedam;
  */
 public class Exam01 {
 	public static void main(String[] args) {
-		int num1 = 0;
+		int num1 = 0; 
 		int num2 = 0;
-		int result = 0;
+		int result = 0;  // 정수(int)형 변수 선언 
 
 		num1 = 35;
-		num2 = 27;
+		num2 = 27;		
 
 		if (num1 > num2) {
 			result = num1 - num2;
