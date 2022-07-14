@@ -12,14 +12,14 @@ public class Exam01 {
 		int result = 0;  // 정수(int)형 변수 선언 
 
 		num1 = 35;
-		num2 = 27;		
+		num2 = 27;		// 정수 선언, 언제든지 바꾸어 선언할 수 있는 값 
 
-		if (num1 > num2) {
-			result = num1 - num2;
-		} else {
+		if (num1 > num2) {				// 조건문 if ~ else 사용 
+			result = num1 - num2;		// num1 > num2 일 경우 
+		} else {						// num1 < num2 일 경우 (두번쨰가 더 클 수도 있으므로)
 			result = num2 - num1;
 		}
-		System.out.println(result);
+		System.out.println(result); 	//result에 출력 
 	}
 
 }
